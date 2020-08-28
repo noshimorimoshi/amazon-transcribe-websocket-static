@@ -6,7 +6,6 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.pcmEncode = pcmEncode;
 exports.downsampleBuffer = downsampleBuffer;
-
 function pcmEncode(input) {
   var offset = 0;
   var buffer = new ArrayBuffer(input.length * 2);
